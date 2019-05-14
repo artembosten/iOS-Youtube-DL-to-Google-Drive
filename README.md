@@ -1,7 +1,7 @@
 # iOS Youtube-DL to Google Drive
 Adds a share extension to download youtube videos, soundcloud audio, etc and upload them to Google Drive
 
-Requirements: Pythonista, Shortcuts, StaSh
+Requirements: Pythonista, Shortcuts, StaSh, youtube-dl, PyDrive
 
 HOW TO USE:
 
@@ -15,6 +15,7 @@ Pythonista automatically adds a share extension called Run Pythonista Script.  T
 5.  Add the Google Drive API to the Google project
 6.  Open Youtube-DL.shortcut in Shortcuts and add it to the Shortcuts share extension (should be in Edit, Preferences)
 7. If you don't have StaSh installed, get it from https://github.com/ywangd/stash.  Run `pip install youtube-dl` in StaSh.  This is the magic engine doing all the work.  Thank the devs.  Keep youtube-dl up to date.  
+8. Run `pip install pydrive`.  PyDrive is a python wrapper for the Google Drive API
 
 That's it! Now in the Youtube app (for example) tap Share --> Shortcuts --> Youtube-DL.  Pythonista opens and the console shows you progress.  When youtube-dl is finished downloading, a Directory Picker for your Google Drive shows up.  Choose where to save.  
 
