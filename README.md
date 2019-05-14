@@ -18,5 +18,5 @@ Pythonista automatically adds a share extension called Run Pythonista Script.  T
 
 That's it! Now in the Youtube app (for example) tap Share --> Shortcuts --> Youtube-DL.  Pythonista opens and the console shows you progress.  When youtube-dl is finished downloading, a Directory Picker for your Google Drive shows up.  Choose where to save.  
 
-Note 1: The first time you connect to your Drive, Oauth will need authentication.  After that it's smooth sailing.  Pythonista console will print a link, copy this link to your browser and log in with your Google account (whichever Drive you want to use)
+Note 1: The first time you connect to your Drive, Oauth will need authentication.  After that it's smooth sailing.  Pythonista console will print a link, copy this link to your browser and log in with your Google account (whichever Drive you want to use)  
 Note 2: If you name your folder in Pythonista something other than youtube-dl, you will need to change the URL path in the shortcut to correspond to the name
