@@ -22,5 +22,5 @@ Note 1: The first time you connect to your Drive, Oauth will need authentication
 Note 2: If you name your folder in Pythonista something other than youtube-dl, you will need to change the URL path in the shortcut to correspond to the name
 
 ![](1.png)
-![](2.png)
 ![](3.png)
+![](2.png)
